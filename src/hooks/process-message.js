@@ -15,7 +15,7 @@ module.exports = function (options = {}) {
 
     context.data = {
       text,
-      userId: user._id,
+      senderId: user._id,
       createdAt: new Date().getTime()
     }
 
